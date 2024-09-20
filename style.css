@@ -9,7 +9,6 @@ font-family: Arial;
   transition: 0.3s;
   position: relative;
   padding: 1.4px;
-  left: -20px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -29,9 +28,13 @@ left: 20px;
 }
 
 #45 {
-font-family: "Monospace";
+font-family: monospace, monospace;
+  position: relative;
+  left: 20px;
 }
 
 #th {
-font-family: "Monospace";
+font-family: monospace, monospace;
+  position: relative;
+  left: 20px;
 }
