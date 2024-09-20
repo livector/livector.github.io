@@ -25,6 +25,13 @@ font-family: Arial;
 #trump {
 border-radius: 20px; 
 position: relative;
-left: 20px; 
+left: 20px;
+}
+
+#45 {
+font-family: "Monospace";
+}
+
+#th {
 font-family: "Monospace";
 }
