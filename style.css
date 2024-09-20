@@ -18,3 +18,7 @@ font-family: Arial;
 .container {
   padding: 2px 16px;
 }
+
+#trump {
+border-radius: 20px; 
+}
