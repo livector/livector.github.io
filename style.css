@@ -8,6 +8,8 @@ font-family: Arial;
   transition: 0.3s;
   position: relative;
   padding: 1.4px;
+  top:30px;
+  width: 500px;
 }
 
 .card:hover {
