@@ -9,7 +9,8 @@ font-family: Arial;
   position: relative;
   padding: 1.4px;
   top:30px;
-  width: 250px;
+  width: 320px;
+  height:370px;
 }
 
 .card:hover {
