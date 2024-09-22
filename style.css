@@ -30,6 +30,10 @@ position: relative;
 left: 20px;
 }
 
+#kamala {
+  float: right;
+  right: 20px;
+}
 
 
 #th {
