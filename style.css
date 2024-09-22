@@ -11,12 +11,15 @@ font-family: Arial;
   top:30px;
   width: 320px;
   height:370px;
+  border:black;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
   border: rgb(0,10,20);
+  border: red;
+  border-style: groove;
 }
 
 
