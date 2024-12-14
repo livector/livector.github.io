@@ -50,7 +50,7 @@ initial-value: 0deg;
 
 .card::before{
 filter: blur(1.5rem);
-opacity: 
+opacity: 0.5;  
 }
 
 @keyframes spin {
