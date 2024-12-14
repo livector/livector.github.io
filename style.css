@@ -33,7 +33,7 @@ color: white;
 
 .card::after, card::before {
   content: ' ';
-  position:absolute;
+  position: absolute;
   height: 100%;
   width: 100%;
   background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
