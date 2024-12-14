@@ -26,19 +26,18 @@ color: white;
   border-radius: 10px; 
 }
 
-@property --rotation {
+@property --angle {
 syntax: "<angle>"; 
 initial-value: 0deg; 
-  inherits: false; 
+inherits: false; 
 }
 
-.card::after, card::before {
-  --rotation: 0deg;
+.card::after, .card::before {
   content: ' ';
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: conic-gradient(from var(--rotation),#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
+  background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
   top: 50%;
   left:50%;
   translate: -50% -50%;
@@ -55,10 +54,10 @@ opacity: 0.5;
 
 @keyframes spin {
 from {
-  --rotation: 0deg; 
+  --angle: 0deg; 
 }
  to {
-  --rotation: 360deg; 
+  --angle: 360deg; 
  }
 }
 
