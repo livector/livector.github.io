@@ -31,7 +31,7 @@ color: white;
   border: rgb(0,10,20);
 }
 
-.card::after {
+.card::after, card::before {
 content: ' ';
   position:absolute;
   height: 100%;
@@ -43,6 +43,11 @@ content: ' ';
   z-index: -1; 
   padding: 2px; 
   border-radius: 10px;
+}
+
+.card::before {
+filter: blur(1.5rem);
+opacity: 0.5; 
 }
 
 
