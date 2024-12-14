@@ -4,8 +4,9 @@ font-family: Arial;
 text-align: left; 
 font-size:40px;
   }
-#body {
+.body {
   background-color: rgb(54,54,71);
+  
 }
 
 .card {
