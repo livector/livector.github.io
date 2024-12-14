@@ -31,6 +31,20 @@ color: white;
   border: rgb(0,10,20);
 }
 
+.card::after {
+content: ' ';
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
+  top: 50%;
+  left: 50%;
+  translate: -50%, -50%; 
+  z-index: -1; 
+  padding: 2px; 
+  border-radius: 10px;
+}
+
 
 .container {
   padding: 2px 20px;
@@ -41,6 +55,8 @@ border-radius: 20px;
 position: relative;
 left: 20px;
 }
+
+
 
 #kamala {
   border-radius: 20px;
