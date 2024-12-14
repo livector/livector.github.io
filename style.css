@@ -8,6 +8,10 @@ font-size:24px;
 body {
   background-color: rgb(52,52,69);
 }
+p {
+font-family: arial; 
+color: white; 
+}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
