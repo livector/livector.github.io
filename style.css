@@ -26,22 +26,40 @@ color: white;
   border-radius: 10px; 
 }
 
+@property --rotation {
+syntax: "<angle>"; 
+initial-value: 0deg; 
+  inherits: false; 
+}
+
 .card::after, card::before {
+  --rotation: 0deg;
   content: ' ';
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
+  background-image: conic-gradient(from var(--rotation),#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
   top: 50%;
   left:50%;
   translate: -50% -50%;
   z-index: -1; 
   padding: 3px; 
   border-radius: 10px;
+  animation: 3s spin linear infinite; 
 }
 
 .card::before{
 filter: blur(1.5rem);
+opacity: 
+}
+
+@keyframes spin {
+from {
+  --rotation: 0deg; 
+}
+ to {
+  --rotation: 360deg; 
+ }
 }
 
 
