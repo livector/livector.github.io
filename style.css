@@ -39,7 +39,7 @@ color: white;
   background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545); 
   top: 50%;
   left:50%
-  translate: -50%, -50%;
+  translate: -50% -50%;
   z-index: -1; 
   padding: 3px; 
   border-radius: 10px;
