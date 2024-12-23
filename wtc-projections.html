@@ -4,22 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Final 2025 Projections | Vector</title>
+    <link rel="stylesheet" href="wtc-projections.css"> 
+    
+    <style>
+    
+    .header {
+      background-color: rgb(35, 35, 46);
+      padding: 5px;
+      box-shadow: 0 8px 40px 0 rgba(0,0,0,0.8);
+      border-radius: 4px;
+      border: rgb(0,10,20);
+    }
+      
+    h1 {
+    background-image: linear-gradient(rgba(41,94,150,255),rgba(104,226,156,255));
+      color:transparent;
+      background-clip: text;
+    }
+
+    #home { 
+font-family: Arial;
+text-align: left; 
+font-size:24px;
+text-decoration:none;
+color:transparent; 
+  }
+
+  body {
+  background-color: rgb(52,52,69);
+}
+p {
+font-family: arial; 
+color: white; 
+}       
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 2%;    
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+    font-family: India2023;
+}
+
+th {
+    font-family: Arial; 
+}
+    </style>
 
     <script>
         var southAfricaPoints = 76;
         var southAfricaMatches = 10;
-        var southAfricaPercent = southAfricaPoints/(southAfricaMatches * 12);
+        var southAfricaPercent = 100 * southAfricaPoints/(southAfricaMatches * 12);
+        southAfricaPercent = Math.round(southAfricaPercent);
 
         </script>
 
 </head>
 <body>
-    <table>
-        <tr>
-            <th>South Africa</th>
-            <th> 63.3
-        </tr>
+    <div class="header">
+        <h1>
+          <span>
+            <a id="home" href="index.html" alt="link to home page">Home</a>
+          </span>
+         </h1>
+          </div>        
+    
+    <button id="saWins"> SA Wins </button>
+    <script>
 
-    </table>
+document.getElementById("saWins").onclick= function() {testMatch2() };
+        
+function testMatch2() {
+            southAfricaMatches = southAfricaMatches + 1;
+            southAfricaPoints = southAfricaPoints + 12; 
+            southAfricaPercent = 100 * southAfricaPoints/southAfricaMatches * 12;
+        }
+    </script>
+
+<table class="center">
+    <tr>
+        <th>Rank</th>
+        <th>Team</th>
+        <th>Played</th>
+        <th>Percent</th>
+    </tr>
+    <tr> 
+        <td> 1 </td>
+        <td> South Africa </td>
+        <td> 
+            <script>
+                document.write(southAfricaMatches);
+        </script>
+        </td>
+        <td><script>
+            document.write(southAfricaPercent + "%");
+    </script>
+</td>
+    </tr>
+    <tr>
+        
+    </tr>
+
+
+</table>
+
 </body>
+
 </html>
