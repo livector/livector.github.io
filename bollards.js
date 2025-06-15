@@ -18,7 +18,6 @@ function gameStart(){
     document.getElementById("imageHolder").src = bollardList[bollardNum];
 
     submit.addEventListener("click",verifyGame);
-    window.addEventListener()
     start2++; 
     corr = 0;
     incorr = 0;
