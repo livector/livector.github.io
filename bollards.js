@@ -10,7 +10,7 @@ end.addEventListener("click", reStart);
 
 
 function reStart(){
-    var bollardList = ['./assets/Andorra.png','./assets/Australia.png','./assets/Austria.png','./assets/Belgium.png','./assets/Czechia.png','./assets/Denmark.png','./assets/France.png','./assets/Iceland.png','./assets/Lithuania.png','./assets/New Zealand.png','./assets/Poland.png','./assets/Spain.png','./assets/Thailand.png'];
+    var bollardList = ['Andorra.png','Australia.png','Austria.png','Belgium.png','Czechia.png','Denmark.png','France.png','Iceland.png','Lithuania.png','New Zealand.png','Poland.png','Spain.png','Thailand.png'];
     var bollardCountries = ["Andorra", 'Australia','Austria','Belgium','Czechia','Denmark','France','Iceland','Lithuania','New Zealand','Poland','Spain','Thailand'];
     let bollardNum = Math.floor(Math.random() * bollardList.length);
 
@@ -57,7 +57,7 @@ function reStart(){
 function gameStart(){
 
 
-    var bollardList = ['Andorra.png','Australia.png','Austria.png','Belgium.png','Czechia.png','Denmark.png','France.png','Iceland.png','Lithuania.png','New Zealand.png','Poland.png','Spain.png','Thailand.png'];
+    var bollardList = ['assets/Andorra.png','assets/Australia.png','assets/Austria.png','assets/Belgium.png','assets/Czechia.png','assets/Denmark.png','assets/France.png','assets/Iceland.png','assets/Lithuania.png','assets/New Zealand.png','assets/Poland.png','assets/Spain.png','assets/Thailand.png'];
     var bollardCountries = ["Andorra", 'Australia','Austria','Belgium','Czechia','Denmark','France','Iceland','Lithuania','New Zealand','Poland','Spain','Thailand'];
     let bollardNum = Math.floor(Math.random() * bollardList.length);
 
