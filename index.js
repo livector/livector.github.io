@@ -10,8 +10,8 @@ button.addEventListener("click", changeTheme);
 function changeTheme (){
 console.log(imgTheme.src);
 
-    if (imgTheme.src.includes("sun.svg")){
-    imgTheme.src = "cool.png";
+    if (imgTheme.src.includes("assets/sun.svg")){
+    imgTheme.src = "assets/moon.svg";
     document.body.style.backgroundColor = "white";
     document.getElementById("header").style.backgroundColor = "whitesmoke";
     button.style.backgroundColor = "rgb(35,35,46)";
@@ -20,7 +20,7 @@ console.log(imgTheme.src);
     document.getElementById("about").style.color = "rgb(35,35,46)";
     document.getElementById("work").style.color = "rgb(35,35,46)";
 } else {
-    imgTheme.src="sun.svg";
+    imgTheme.src="assets/sun.svg";
     document.body.style.backgroundColor = "rgb(52,52,69)";
     document.getElementById("header").style.backgroundColor = "rgb(35,35,46)";
     button.style.backgroundColor = "azure";
