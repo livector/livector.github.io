@@ -47,7 +47,7 @@ function gameStart(){
         if ((corr + incorr) == oldLength){
             console.log("This works");
             document.getElementById("imageHolder").src = "assets/abc.jpg";
-            document.getElementById("msg").innerText = "Congratulations! You scored " + corr + "/" + (corr + incorr) + " ! Refresh the page to play again!";
+            document.getElementById("msg").innerText = "Congratulations! You scored " + corr + "/" + (corr + incorr) + "! Refresh the page to play again!";
             document.getElementById("verification").innerText = "";
         }   
     }
