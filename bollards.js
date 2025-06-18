@@ -10,7 +10,7 @@ function gameStart(){
 
 
     var bollardList = ['assets/Andorra.png','assets/Australia.png','assets/Austria.png','assets/Belgium.png','assets/Czechia.png','assets/Denmark.png', 'assets/Ecuador.png', 'assets/Finland.png','assets/France.png','assets/Iceland.png', 'assets/India.png','assets/Liechtenstein.png','assets/Lithuania.png','assets/New Zealand.png', 'assets/Norway.png','assets/Poland.png', 'assets/Slovakia.png','assets/Spain.png', 'assets/Sri Lanka.png', 'assets/Sweden.png','assets/Thailand.png', 'assets/Turkey.png'];
-    var bollardCountries = ["Andorra", 'Australia','Austria','Belgium','Czechia','Denmark', 'Ecuador', 'Finland', 'France','Iceland', 'India', 'Liechtenstein','Lithuania','New Zealand', 'Norway','Poland','Slovakia','Spain','Sri Lanka', 'Sweden','Thailand'];
+    var bollardCountries = ["Andorra", 'Australia','Austria','Belgium','Czechia','Denmark', 'Ecuador', 'Finland', 'France','Iceland', 'India', 'Liechtenstein','Lithuania','New Zealand', 'Norway','Poland','Slovakia','Spain','Sri Lanka', 'Sweden','Thailand', 'Turkey'];
     let bollardNum = Math.floor(Math.random() * bollardList.length);
 
     var oldLength = bollardList.length;
